@@ -1,0 +1,30 @@
+[project]
+name = "linear-regression-model"
+version = "1.0.0"
+description = "Mental Health Anxiety Prevalence Prediction — linear regression summative (notebook, FastAPI API, Flutter app)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "scikit-learn==1.8.0",
+    "pandas",
+    "numpy",
+    "joblib",
+    "python-multipart",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter",
+    "matplotlib",
+    "seaborn",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["summative"]
