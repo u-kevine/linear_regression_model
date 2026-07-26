@@ -4,7 +4,7 @@
 Predict a country's **Anxiety disorder prevalence** (share of population, age-standardized) for a given year, using its other mental-health disorder prevalences plus geographic (country) and temporal (year) context. This supports estimating anxiety burden for country-years where direct anxiety surveillance is sparse or missing.
 
 ## Problem Statement
-Global mental-health surveillance is uneven — many countries and years lack direct measurement of anxiety disorder prevalence, while other indicators (depression, bipolar, schizophrenia, eating disorders) are more consistently reported. A regression model that estimates anxiety prevalence from these related indicators and from country/year context gives public-health analysts a defensible way to fill gaps and study cross-disorder relationships.
+Global mental-health surveillance is uneven because many countries and years lack direct measurement of anxiety disorder prevalence, while other indicators (depression, bipolar, schizophrenia, eating disorders) are more consistently reported. A regression model that estimates anxiety prevalence from these related indicators and from country/year context gives public-health analysts a defensible way to fill gaps and study cross-disorder relationships.
 
 ## Dataset
 - **Name:** Mental Illnesses Prevalence (Our World in Data / IHME Global Burden of Disease)
