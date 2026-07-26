@@ -111,12 +111,6 @@ flutter run           # or: flutter run -d chrome / -d windows
 ```
 Enter the 6 values and press **Predict**. Use `country_codes.json` to find a country's code.
 
-How to Run the Notebook
-cd summative/linear_regression
-jupyter notebook multivariate.ipynb    # Kernel > Restart and Run All
-python predict.py                      # single prediction using the saved model
-
-
 ## Key Findings
 - Bipolar and Eating disorder prevalence are the strongest correlates of Anxiety.
 - Country identity (Entity) carries very strong signal — prevalence is highly country-specific, which is why tree-based models dominate the linear ones.
