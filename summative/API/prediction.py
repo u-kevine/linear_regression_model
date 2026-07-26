@@ -17,25 +17,14 @@ app = FastAPI(
 )
 
 # ── CORS Middleware ────────────────────────────────────────────────────────────
-# Explicit allow-list — NOT the wildcard "*".
-#
-# ALLOWED:
-#   - localhost variants -> local development of the Flutter web build
-#   - the deployed Render URL of this service -> so Swagger UI and browser
-#     clients served from that domain can reach /predict
-# RESTRICTED:
-#   - all other origins are blocked by the browser same-origin policy, which
-#     stops unknown third-party sites from calling this API on a user's behalf.
-# METHODS: only GET (health) and POST (predict / retrain) are used.
-# HEADERS: limited to the ones the client actually sends.
-# CREDENTIALS: allowed so auth headers survive if authentication is added later.
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost",
         "http://localhost:3000",
         "http://localhost:8080",
-        "https://mental-health-anxiety-predictor.onrender.com",
+        "https://linear-regression-model-gako.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
