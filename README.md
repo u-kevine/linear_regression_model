@@ -70,8 +70,6 @@ All features are standardized with `StandardScaler` (fit on the training set onl
 
 **Retraining Endpoint:** POST https://mental-health-anxiety-predictor.onrender.com/retrain
 
-> Hosted on Render free tier — if the first request is slow, wait ~30 seconds for the instance to wake up.
-
 ### CORS configuration & reasoning
 The API uses `CORSMiddleware` with an **explicit allow-list**, not the wildcard `*`.
 
