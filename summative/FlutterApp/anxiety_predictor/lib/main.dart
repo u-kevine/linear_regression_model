@@ -35,7 +35,7 @@ class _PredictionPageState extends State<PredictionPage> {
 
   // API URL 
   static const String apiUrl =
-      'https://linear-regression-model-gako.onrender.com';
+      'https://linear-regression-model-gako.onrender.com/predict';
 
   // Controllers for the 6 model input variables
   final TextEditingController _entityCtrl = TextEditingController();
