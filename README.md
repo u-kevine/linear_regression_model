@@ -1,4 +1,4 @@
-# Mental Health — Anxiety Prevalence Prediction
+# Mental Health: Anxiety Prevalence Prediction
 
 ## Mission & Problem
 Mental-health surveillance is uneven — many countries and years lack direct anxiety-disorder data while other indicators are reported more consistently. This project predicts a country's **Anxiety disorder prevalence** (share of population) from its other disorder prevalences, country, and year. A linear-regression pipeline (compared against tree and ensemble models) fills these gaps so analysts can estimate anxiety burden where direct measurement is missing.
