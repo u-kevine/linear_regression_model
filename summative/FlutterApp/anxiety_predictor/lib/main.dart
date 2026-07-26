@@ -33,9 +33,9 @@ class PredictionPage extends StatefulWidget {
 class _PredictionPageState extends State<PredictionPage> {
   final _formKey = GlobalKey<FormState>();
 
-  // API URL — replace with your deployed Render URL
+  // API URL 
   static const String apiUrl =
-      'https://mental-health-anxiety-predictor.onrender.com/predict';
+      'https://linear-regression-model-gako.onrender.com';
 
   // Controllers for the 6 model input variables
   final TextEditingController _entityCtrl = TextEditingController();
