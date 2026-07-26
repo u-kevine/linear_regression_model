@@ -1,4 +1,4 @@
-# Mental Health — Anxiety Prevalence Prediction (Linear Regression Summative)
+# Mental Health: Anxiety Prevalence Prediction (Linear Regression Summative)
 
 ## Mission
 Predict a country's **Anxiety disorder prevalence** (share of population, age-standardized) for a given year, using its other mental-health disorder prevalences plus geographic (country) and temporal (year) context. This supports estimating anxiety burden for country-years where direct anxiety surveillance is sparse or missing.
