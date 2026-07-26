@@ -64,11 +64,11 @@ All features are standardized with `StandardScaler` (fit on the training set onl
 
 ## API
 
-**Live Swagger UI:** https://mental-health-anxiety-predictor.onrender.com/docs
+**Live Swagger UI:** https://linear-regression-model-gako.onrender.com/docs
 
-**Prediction Endpoint:** POST https://mental-health-anxiety-predictor.onrender.com/predict
+**Prediction Endpoint:** POST https://linear-regression-model-gako.onrender.com/predict
 
-**Retraining Endpoint:** POST https://mental-health-anxiety-predictor.onrender.com/retrain
+**Retraining Endpoint:** POST https://linear-regression-model-gako.onrender.com/retrain
 
 ### CORS configuration & reasoning
 The API uses `CORSMiddleware` with an **explicit allow-list**, not the wildcard `*`.
