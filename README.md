@@ -128,3 +128,6 @@ python predict.py                      # single prediction using the saved model
 
 ## Technologies
 Python, Jupyter, pandas, numpy, matplotlib, seaborn, scikit-learn (SGDRegressor, LinearRegression, DecisionTreeRegressor, RandomForestRegressor, StandardScaler, LabelEncoder), joblib, FastAPI, Uvicorn, Pydantic, Flutter/Dart, Render.
+
+##youtube link
+https://youtu.be/aqjT9TvOcg8
